@@ -1,0 +1,9 @@
+dist: trusty
+language: cpp
+cache: apt
+os:
+  - linux
+compiler:
+  - clang
+script:
+  clang main.c
